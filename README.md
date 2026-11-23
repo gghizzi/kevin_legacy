@@ -105,6 +105,9 @@ The following defects remain unresolved:
 - Some knowledge exists exclusively inside Kevin's head.
 - Documentation coverage remains questionable.
 - Team dependency on Kevin exceeds recommended architecture standards.
+- Everything takes 30 minutes upon a first request, regardless if it's a small thing or a full project
+- Ability to stay on one topic for over 15 seconds needs to be strongly supported by enforced automated workflows
+- Vulnerable to chocolate
 
 These issues will not be fixed.
 
