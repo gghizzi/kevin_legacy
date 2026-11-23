@@ -1,10 +1,45 @@
-def give_people_a_chance(person):
-    """
-    Kevin's approach to developing people.
-    """
+"""
+trust.py
 
-    person.trust += 100
-    person.ownership = True
-    person.space_to_succeed = True
+Security notice:
+Kevin appears to grant elevated permissions
+with surprisingly little bureaucracy.
+"""
 
-    return person
+
+def assign_important_project(person):
+
+    try:
+        person.assign(
+            responsibility="HIGH",
+            instructions="MINIMAL",
+            visibility="ALARMINGLY_HIGH"
+        )
+
+        Kevin.say("You'll figure it out.")
+
+        return person
+
+    except PersonSaysTheyAreNotReady:
+
+        Kevin.say("I think you are.")
+
+        return assign_important_project(person)
+
+
+def request_approval(decision):
+
+    if decision.is_sensible():
+        return "Why are you asking me?"
+
+    if decision.is_reversible():
+        return "Just try it."
+
+    return Kevin.help_think_it_through(decision)
+
+
+def micromanage(team):
+
+    raise NotImplementedError(
+        "This functionality was never implemented."
+    )
