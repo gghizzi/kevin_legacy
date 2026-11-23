@@ -241,7 +241,7 @@ Good luck with the next deployment, Kevin.
 
 We're expecting great uptime.
 
-**Kevin v1.0.0**
+**Kevin v40.0.0**
 
 `Status: Released 🚀`
 
