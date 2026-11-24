@@ -1,4 +1,4 @@
-# Fillipos
+# Filippo Fattorini
 
 ## Something Kevin gave/taught me:
 
